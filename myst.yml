@@ -1,0 +1,20 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 7d41b9ac-4736-4740-b481-005af048b16d
+  title: Continual Learning for the Curious
+  # description:
+  # keywords: []
+  # authors: []
+  github: https://github.com/Andikazidanef15/continual-learning-handbook
+  bibliography: [references.bib]
+  toc:
+    - file: intro.md
+    - title: Foundations
+      children:
+        - file: 01-what-is-forgetting.ipynb
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
